@@ -1,0 +1,222 @@
+/* Global */
+
+/* #F3EFE0, C8D8C6 */
+body {
+  background: #F4F9F4;
+  font-size: 1.4em;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.name {
+  border-style: solid;
+  border-width: medium;
+  border-color: #FFF;
+}
+
+.wrapper {
+  width: 50%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.col {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: top;
+}
+
+.employers {
+  width: 30%;
+  margin-right: 10px;
+}
+
+.description {
+  width: 60%;
+}
+
+/* Intro */
+
+#intro {
+  background: url('http://res.cloudinary.com/bgongre/image/upload/v1517776815/ChattahoocheeRiverOpacity_iqj5mf.png') no-repeat center top fixed;
+  background-size: cover;
+  text-align: center;
+  height: 100vh;
+}
+
+#intro h1 {
+  font-size: 4em;
+  padding-top: 40vh;
+}
+
+/* Samples */
+#projects {
+  background-color: #C4E3CB;
+  text-align: center;
+  color: #333A56;
+  padding: 100px 0;
+}
+
+#projects ul {
+  list-style: none;
+  padding: 0;
+}
+
+#projects li {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: middle;
+}
+
+#sites h2 {
+  padding-bottom: 50px;
+}
+
+#sites li {
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+#sites img {
+  width: 200px;
+}
+
+#sites img{
+  width: 400px;
+  height: 250px;
+  margin: 0;
+  padding-left: 30px;
+  float: left;
+}
+
+/* Work-History */
+#work-history h3 {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: normal;
+  border-bottom: solid 1px #000;
+  padding-bottom: 10px;
+}
+
+#work-history h4 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+#work-history h5 {
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+/* Resume */
+#resume {
+  padding: 100px 0;
+  color: #000;
+}
+
+#resume section {
+  border-bottom: solid 1px #ccc;
+  margin-top: 10px;
+  padding: 10px 0;
+}
+
+#resume h3, #resume h4 {
+  color: #333A56;
+}
+
+#resume p, #resume li {
+  font-size: 0.7em;
+}
+
+#resume ul {
+  padding-left: 16px;
+}
+
+/* Skills & Education */
+#skillset {
+  background: #C4E3CB;
+  background-size: 100% auto;
+  padding: 100px 0 50px;
+}
+
+#skillsset h3, #skillset h4, #education h3, #education h4 {
+  color: #333A56;
+}
+
+#skills section {
+  margin-bottom: 15px;
+}
+
+#skills ul {
+  column-count: 3;
+  padding: 0;
+}
+
+#skills li {
+  list-style: none;
+  color: #000;
+}
+
+#edu {
+  margin: 0;
+  background-color: #8AAE92;
+  background-size: 100% auto;
+}
+
+#education {
+  padding: 50px 0;
+}
+
+#education h5, #education h4 {
+  padding-bottom:10px;
+  font-size: 0.8em;
+}
+
+/* Contact */
+#contact {
+  background: #616161;
+  padding: 50px 0;
+  color: #F5F5F5;
+}
+
+#contact h3 {
+  border-bottom: 1px solid #000;
+}
+
+#contact p {
+  font-size: 25px;
+  margin-left: 40px 0;
+}
+
+#contact span {
+  font-weight: bold;
+}
+
+#contact a {
+  text-decoration: none;
+}
+
+.email {
+  color: #000;
+  font-weight: bold;
+}
+
+.linkedin {
+  color: #0077B5;
+}
+
+.github {
+  color: #000;
+}

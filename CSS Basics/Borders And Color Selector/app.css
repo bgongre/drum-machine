@@ -1,0 +1,22 @@
+h1 {
+  color: rgb(0,0,0);
+  /* border-color: purple;
+  border-width: 5px;
+  border-style: solid; */
+
+/* width, style, color */
+  border: 8px dashed rgb(255, 100, 80);
+}
+
+/* 'a' stands for alpha, this is used for transparency */
+h4 {
+  color: rgba(0,200,100,.8);
+  background: rgb(255, 100, 80);
+}
+
+body {
+  background: pink;
+  /* background: url(http://ps102q.org/wp-content/uploads/2014/01/bamboo-wood-flooring-texture.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; */
+}

@@ -1,0 +1,4 @@
+Mobile Compatability:
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+(if <hr> is going off screen add "max-width:90%" to the hr selector)

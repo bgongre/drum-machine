@@ -1,0 +1,23 @@
+{
+  "name": "mymeanapplication",
+  "description": "First MEAN Stack",
+  "main": "app.js",
+  "authors": [
+    "bgongre"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.8",
+    "underscore": "^1.8.3",
+    "jquery": "^3.3.1",
+    "bootstrap": "^4.0.0"
+  }
+}

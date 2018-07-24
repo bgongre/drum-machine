@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Bootstrap Basics</title>
+  <link rel="stylesheet" type="text/css" href="bootstrap.css">
+  <style>
+    .btn-danger {
+      background-color: orange;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- container gives spacing, padding, and centers elements -->
+  <div class="container">
+    <div class="jumbotron">
+      <h1>This is a jumbotron</h1>
+      <p>Marie, I said Cheetos, not Fritos. I must've said Cheetos like ten times. You need me to write it down for you? Well, I'm just saying, y'know, I said Cheetos. Ch-ch-ch sound. Virtually impossible to confuse Cheetos with Fritos it seems to me. Where
+        are you going?</p>
+      <button class="btn btn-success btn-lg">Hi There</button>
+    </div>
+
+    <h1>Bootstrap Basics</h1>
+
+    <button class="btn btn-danger btn-xs">Click Me!</button>
+    <button class="btn btn-success btn-xs active">Click Me!</button>
+    <button class="btn btn-success btn-xs" disabled="disabled">Click Me!</button>
+    <a href="http://www.getbootstrap.com" class="btn btn-info btn-lg">Bootstrap Docs</a>
+
+    <form>
+      <!-- inline form -->
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputFile">File input</label>
+        <input type="file" id="exampleInputFile">
+        <p class="help-block">Example block-level help text here.</p>
+      </div>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Check me out
+        </label>
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+  </div>
+</body>
+
+</html>

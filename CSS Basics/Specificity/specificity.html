@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Specificity</title>
+    <style>
+    /* when viewing in Chrome inspector you can see the colors crossed out and override because of Specificity. body is red but when ul was created it overwrote body and so on. */
+
+    /* Specificity hierarchy from least to greatest */
+    /* type selectors, in-line styles {li, li a, li + a} */
+    /* class, attribute, and pseudo-class selectors {.someTextHere} */
+    /* id selectors {#thisIsMostDominant} */
+      body{
+        color: red;
+      }
+
+      ul {
+        color: blue;
+      }
+
+      li {
+        color: orange;
+      }
+
+      .highlight {
+        color: yellow;
+      }
+
+      #special {
+        color: pink;
+      }
+    </style>
+  </head>
+  <body>
+
+    <p>Hello!!!</p>
+
+    <ul>
+      <li id="special" class="highlight">John</li>
+      <li>Paul</li>
+      <li>George</li>
+      <li class="highlight">Ringo</li>
+    </ul>
+
+  </body>
+</html>

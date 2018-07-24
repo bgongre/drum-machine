@@ -1,0 +1,17 @@
+{
+  "name": "mymeanapplication",
+  "version": "1.0.0",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "gulp": "^3.9.1"
+  },
+  "description": "First MEAN Stack",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bgongre",
+  "license": "ISC"
+}

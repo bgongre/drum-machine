@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+body {
+  background-color: #000;
+}
+
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+.container {
+  justify-content: space-evenly;
+}
+
+/*---menu outline ---*/
+.menu-wrap {
+  width: 100%;
+  box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+  background-color: #523b7e;
+}
+
+.menu {
+  width: 1000px;
+  margin: 0px auto;
+  text-transform: uppercase;
+  background-color: #523b7e;
+}
+
+.menu li {
+  margin: 0px;
+  list-style: none;
+  font-family: 'Ek Mukta';
+}
+
+.menu a {
+  transition: all linear 0.15s;
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu .arrow {
+  font-size: 11px;
+  line-height: 0%;
+}
+
+/*---top level---*/
+.menu > ul > li {
+  float: left;
+  display: inline-block;
+  position: relative;
+  font-size: 19px;
+}
+
+.menu > ul > li > a {
+  padding: 10px 40px;
+  display: inline-block;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
+}
+
+.menu > ul > li:hover > a,
+.menu > ul > a {
+  background-color: pink;
+}
+
+/*---bottom level---*/
+.menu li .sub-menu {
+  display: none;
+  position: absolute;
+  width: 100%;
+  list-style: none;
+  left: 0px;
+}
+
+.menu li:hover .sub-menu {
+  display: block !important;
+  padding: 0;
+}
+
+.menu .sub-menu li a {
+  background-color: #523b7e;
+  width: 100%;
+  text-align: left;
+  display: block;
+  padding: 0;
+  padding-left: 18px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  float: left;
+}
+
+.menu .sub-menu li {
+  float: none;
+  margin: 0;
+}
+
+.sub-menu li a {
+  padding: 10px 30px;
+  display: block;
+}
+
+.sub-menu li a:hover,
+.sub-menu a {
+  background-color: pink;
+}

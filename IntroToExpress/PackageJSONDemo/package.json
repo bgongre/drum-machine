@@ -1,0 +1,17 @@
+{
+  "name": "packagejsondemo",
+  "version": "1.0.0",
+  "description": "JSON Demo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bgongre",
+  "license": "ISC",
+  "dependencies": {
+    "cat-me": "^1.0.3",
+    "express": "^4.16.2",
+    "faker": "^4.1.0",
+    "knock-knock-jokes": "^1.7.0"
+  }
+}

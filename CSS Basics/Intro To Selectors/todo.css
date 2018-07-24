@@ -1,0 +1,15 @@
+/* 'element' selector */
+li {
+  border: 2px solid red;
+}
+
+/* 'id' selector */
+#special {
+  background: yellow;
+  color: rgb(255, 100, 90);
+}
+
+/* 'class' selector */
+.completed {
+  text-decoration: line-through;
+}

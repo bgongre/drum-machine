@@ -1,0 +1,19 @@
+p {
+
+/* content - width and height */
+/* can use percentage or pixel, percentage goes off page body */
+width: 50%;
+
+/* border */
+border: 2px solid blue;
+
+/* padding */
+padding-left: 40px;
+
+/* margin */
+/* margin: 100px; */
+/* margin-top: 500px; */
+/* margin: top, right, bottom, left */
+/* margin: 20px 40px 500px 100px; */
+/* margin: 0 auto 0 auto;*/
+margin: 0 auto;
