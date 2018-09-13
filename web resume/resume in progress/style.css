@@ -1,0 +1,155 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  margin: 20px 0;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+}
+
+.nav-links li {
+  padding-left: 20px;
+}
+
+.nav-links a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #000;
+  font-size: x-large;
+}
+
+.container ul {
+  margin: 0 10%;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.box-border {
+  border: 2px solid #000;
+  padding: 0 10px;
+}
+
+.name-text {
+  display: inline-block;
+}
+
+.name h1 {
+  margin: 0;
+}
+
+.hero {
+  padding-bottom: 14rem;
+  background-color: #467EFF
+}
+
+.introduction-column {
+  width: 60%;
+}
+
+.container {
+  margin: 0 auto;
+  position: relative;
+}
+
+.column {
+  width: 33.3333%;
+}
+
+.columns {
+  display: flex;
+  justify-content: center;
+}
+
+.multiline {
+  flex-wrap: wrap;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+.subtitle {
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.project-section {
+  margin-top: -12rem;
+}
+
+.project-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+
+.project-grid .column {
+  display: block;
+  padding: .4rem;
+}
+
+.project-grid figure {
+  position: relative;
+  overflow: hidden;
+  border-radius: 11px;
+  margin: 0;
+}
+
+.project-grid .column img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: .3s ease-in-out;
+}
+
+.column img:hover {
+  transform: scale(1.1);
+}
+
+/* .column figcaption {
+  position: absolute;
+  display: block;
+  top: 0;
+  text-align: center;
+} */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .container {font-size: 24px; margin: 0 10%;}
+  .project-grid .column {width: 100%;}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .container {font-size: 32px; margin: 0 10%;}
+  .column {width: 47.8%;}
+}
+
+@media only screen and (max-width: 500px) {
+  .column {width: 100%;}
+}
+
+@media only screen and (max-width: 950px){
+  .column {width: 47%;}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1088px) {
+  .column {width: 33.3333%;}
+}
