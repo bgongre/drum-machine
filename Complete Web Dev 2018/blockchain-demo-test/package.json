@@ -1,0 +1,10 @@
+{
+  "name": "blockchain-demo-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "bgongre",
+  "license": "MIT",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
+  }
+}

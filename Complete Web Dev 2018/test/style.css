@@ -1,0 +1,47 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  margin-top: 0;
+  padding-top: 15px;
+  color: #fff;
+  text-align: center;
+}
+
+p {
+  color: #fff;
+  padding: 20px 20%;
+}
+
+
+.wrapper {
+  margin-top: 0;
+  padding-bottom: 15px;
+}
+
+.background {
+  background-image: url('bluebackground.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background::after{
+  content: "";
+  display: block;
+  padding-bottom: 3%;
+  background-image: url('arc.svg');
+  width: 110%;
+  margin-left: -5%;
+  /* margin-bottom: -.625rem !important; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: center top; */
+  position: relative; */
+  /* z-index: 90;
+}
+
+.two {
+  background-color: cornflowerblue;
+}

@@ -11,10 +11,12 @@ html {
 ul {
   list-style-type: none;
   display: block;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
 li {
-  display: inline;
+  display: block;
 }
 
 a {
@@ -30,7 +32,6 @@ h3 {
   font-family: inherit;
   font-size: 35px;
   font-weight: 300;
-  margin: 0 auto 80px;
 }
 
 h3 span {
@@ -86,10 +87,18 @@ section {
 }
 
 .name {
+  display: inline-block;
   border: 3px solid #FFF;
-  padding: 5px 3px;
   color: #FFF;
   font-size: 80px;
+}
+
+.introduction {
+  padding-bottom: 180px !important;
+}
+
+.about-title {
+  margin: 0 auto 60px;
 }
 
 .below-fullscreen {
@@ -104,11 +113,7 @@ section {
 }
 
 .below-fullscreen section {
-  padding: 90px 20px 120px;
-}
-
-.below-fullscreen section .skills {
-  height: 70vh;
+  padding: 100px 20px 100px;
 }
 
 .below-fullscreen .paragraphs a {
@@ -124,7 +129,6 @@ section {
 }
 
 .below-fullscreen section ul.paragraphs li>p, .below-fullscreen section ul.skills li>p {
-  max-width: 560px;
   line-height: 34px;
   margin: 0 auto;
 }
@@ -153,12 +157,20 @@ section {
 .below-fullscreen section.inverted {
   background-color: #182a3d;
   color: #FFF;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.below-fullscreen section .row::after {
-  clear: both;
-  content: "";
-  display: table;
+.portfolio-title {
+  margin: 0 auto 80px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 50%;
 }
 
 .below-fullscreen section .row+.row {
@@ -168,22 +180,25 @@ section {
 .below-fullscreen section .row {
   margin-left: auto;
   margin-right: auto;
-  max-width: 900px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   position: relative;
 }
 
 .below-fullscreen section .row .project {
-  padding-left: 1.2em;
+  padding-right: 10px;
+  width: 40%;
 }
 
 .below-fullscreen section .row .project img {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
+  width: 100%;
+  height: auto;
 }
 
-.below-fullscreen .paragraphs a, .below-fullscreen section .row .project footer a, .below-fullscreen section .more-portfolio a, .below-fullscreen footer a {
+.below-fullscreen .paragraphs a, .below-fullscreen section .project a, .below-fullscreen section .more-portfolio a {
   color: #e74a64;
 }
 
@@ -209,7 +224,7 @@ section {
   text-align: left;
 }
 
-.below-fullscreen section .more-portfolio, .below-fullscreen>footer {
+.below-fullscreen section .more-portfolio {
   font-family: inherit;
   font-size: 25px;
   font-weight: 300;
@@ -237,14 +252,21 @@ section {
 }
 
 .below-fullscreen>footer {
+  background-color: #182a3d;
+  color: #FFF;
   font-family: inherit;
   font-size: 30px;
   font-weight: 300;
   padding: 70px 0 90px;
 }
 
+.github-link {
+  color: #e74a64 !important;
+}
+
 .below-fullscreen footer a {
   font-size: 1.1em;
+  color: #fff;
 }
 
 .below-fullscreen footer li {
@@ -254,4 +276,66 @@ section {
 .below-fullscreen>footer hr {
   width: 100px;
   margin: 50px auto;
+}
+
+.below-fullscreen footer ul {
+  display: flex;
+  justify-content: center;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  ul {margin: 0;}
+  .name {font-size: 50px;}
+  .name-box {padding-top:15vh;}
+  .introduction {padding: 60px 20px 50px !important;}
+  .below-fullscreen section ul.paragraphs li>p {padding-bottom: 10px;}
+  .skills-title {margin: 0 !important;}
+  .skills {padding: 60px 20px 50px !important;}
+  .inverted {padding-bottom: 100px !important}
+  .projects {width: 100% !important;}
+  .below-fullscreen section .row .project {width: 350px !important; padding: 0;}
+  .below-fullscreen section .row+.row {margin-top: 15px !important;}
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  ul {margin: 0;}
+  .name {font-size: 50px;}
+  .name-box {padding-top:15vh;}
+  .introduction {padding: 60px 20px 50px !important;}
+  .below-fullscreen section ul.paragraphs li>p {padding-bottom: 10px;}
+  .skills-title {margin-bottom: 5% !important;}
+  .skills {padding: 60px 20px 50px !important;}
+  .inverted {padding-bottom: 100px !important}
+  .projects {width: 100% !important;}
+  .below-fullscreen section .row .project {width: 350px !important; padding: 0;}
+  .below-fullscreen section .row+.row {margin-top: 15px !important;}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  ul {margin: 0;}
+  .introduction {padding: 100px 20px 100px !important; margin: 0 10%;}
+  ul.skills {padding: 0 !important;}
+  .skills {padding: 100px 20px 100px !important; margin: 0 10%;}
+  .projects {width: 100% !important;}
+  .below-fullscreen section .row .project {padding-left: 0 !important;}
+  .below-fullscreen section .row+.row {margin-top: 10px !important;}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  ul {margin: 0;}
+  .introduction {padding: 100px 20px 100px !important; margin: 0 20%;}
+  .skills {padding: 100px 20px 100px !important; margin: 0;}
+  .skills-title {margin: 0;}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  ul {margin: 0;}
+  .introduction {padding: 100px 20px 100px !important; margin: 0 30%;}
+  .skills {margin: 0 10%;}
+  .skills-title {margin: 60px;}
 }

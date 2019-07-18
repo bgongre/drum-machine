@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Blockchain Demo</title>
+</head>
+
+<body>
+
+
+  <h1>BLOCKCHAIN</h1>
+
+  <div class="">
+    <button id='add-button' type="button" name="button">add block</button>
+  </div>
+
+  <div class='container'>
+    <div id="box-wrapper">
+      <div class="box">
+        <div class="block-box">
+          <button class='data-button' type="button" name="data" disabled>DATA</button><input id='data-input' type="text" name="data" value="" placeholder="Enter Text To Encrypt">
+          <p>Nonce <input id='nonce-info' type='text' name='nonce' value='' disabled></p>
+          <p>Previous Hash <input id='p-hash' type='text' name 'prevhash' value='' disabled></p>
+          <p>Hash <input id='hash-info' type="text" name="hash" value="" disabled></p>
+          <h3 id='block-txt'>Genesis Block</h3>
+          <button id='mine-button'><i class="fas fa-wrench fa-md"></i></button>
+          <h6 id='date'></h6>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!--
+<div class="particles">
+  <canvas class='background'></canvas>
+</div> -->
+
+  <script type="text/javascript" src="./node_modules/crypto-js/crypto-js.js"></script>
+  <script type="text/javascript" src='script.js'></script>
+  <!-- <script src="./particles.js-master/particles.js-master/dist/particles.min.js"></script> -->
+</body>
+
+</html>

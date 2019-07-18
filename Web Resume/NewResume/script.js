@@ -17,10 +17,10 @@ function activeNav(e) {
 }
 
 //Scroll back to top button
-$(document).ready(function(){
+$(document).ready(() => {
 
     //Check to see if the window is top if not then display button
-    $(window).scroll(function(){
+    $(window).scroll(() => {
         if ($(this).scrollTop() > 100) {
             $('.scrollToTop').fadeIn();
         } else {
@@ -36,10 +36,9 @@ $(document).ready(function(){
 });
 
 //Scrolling anchors
-$(document).ready(function(){
+$(document).ready(function() {
   // Add smooth scrolling to all links
   $("a").on('click', function(event) {
-
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
       // Prevent default anchor click behavior
