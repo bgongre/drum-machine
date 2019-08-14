@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#drum-machine {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: left;
+    background-color: salmon;
+    padding: 20px 10px;
+    max-width: 600px;
+}

@@ -1,0 +1,17 @@
+.button-container {
+    display: flex;
+}
+
+.button-group {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 6px;
+}
+
+.music-buttons {
+    background-color: goldenrod;
+    border-radius: 5px;
+    padding:25px;
+    box-shadow: 0 0 10px rgb(68, 68, 68);
+}
